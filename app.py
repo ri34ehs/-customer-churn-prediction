@@ -92,3 +92,4 @@ if st.button('Predict'):
         st.error("⚠ The customer is likely to churn.")
     else:
         st.success("✅ The customer is not likely to churn.")
+
