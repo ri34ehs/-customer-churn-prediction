@@ -3,7 +3,8 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load('model/best_churn_model.pkl')
+model = joblib.load('best_churn_model.pkl')
+
 
 
 # Expected columns from training
